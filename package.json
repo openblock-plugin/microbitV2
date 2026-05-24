@@ -1,6 +1,6 @@
 {
   "name": "microbit-v2",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ArthurZheng",
   "license": "MIT",
   "repository": {
@@ -22,6 +22,9 @@
   "openblock": {
     "name": "micro:bit V2",
     "deviceId": "microbitV2",
+    "arch": [
+      "microbit-v2"
+    ],
     "manufactor": "microbit",
     "learnMore": "https://microbit.org/new-microbit/",
     "type": "microbit",
@@ -43,10 +46,64 @@
     "main": "./src/microbitV2.js",
     "generator": "./src/generator.js",
     "translations": "./src/translations.js",
-    "programMode": ["upload"],
-    "tags": ["microbit"],
+    "programMode": [
+      "upload"
+    ],
+    "tags": [
+      "microbit"
+    ],
     "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/microbit-v2",
-    "libraries": "./libraries"
+    "libraries": "./libraries",
+    "examples": [
+      {
+        "id": "blinkIcon",
+        "name": {
+          "formatMessage": {
+            "id": "microbitV2.examples.blinkIcon.name",
+            "default": "Blink Icon"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "microbitV2.examples.blinkIcon.description",
+            "default": "Blink an icon on the 5x5 LED matrix."
+          }
+        },
+        "file": "./examples/blinkIcon.ob"
+      },
+      {
+        "id": "button",
+        "name": {
+          "formatMessage": {
+            "id": "microbitV2.examples.button.name",
+            "default": "Button"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "microbitV2.examples.button.description",
+            "default": "Show an icon on the LED matrix while button A is pressed."
+          }
+        },
+        "file": "./examples/button.ob"
+      },
+      {
+        "id": "serialTemperature",
+        "name": {
+          "formatMessage": {
+            "id": "microbitV2.examples.serialTemperature.name",
+            "default": "Serial Temperature"
+          }
+        },
+        "description": {
+          "formatMessage": {
+            "id": "microbitV2.examples.serialTemperature.description",
+            "default": "Print the on-board temperature to the Serial Monitor every second."
+          }
+        },
+        "file": "./examples/serialTemperature.ob"
+      }
+    ]
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

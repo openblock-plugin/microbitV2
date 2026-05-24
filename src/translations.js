@@ -18,16 +18,40 @@
 export default {
     'interface': {
         'en': {
-            'microbitV2.description': 'Upgraded processor, built-In speaker and microphone, touch sensitive logo.'
+            'microbitV2.description': 'Upgraded processor, built-In speaker and microphone, touch sensitive logo.',
+            'microbitV2.examples.blinkIcon.name': 'Blink Icon',
+            'microbitV2.examples.blinkIcon.description': 'Blink an icon on the 5x5 LED matrix.',
+            'microbitV2.examples.button.name': 'Button',
+            'microbitV2.examples.button.description': 'Show an icon on the LED matrix while button A is pressed.',
+            'microbitV2.examples.serialTemperature.name': 'Serial Temperature',
+            'microbitV2.examples.serialTemperature.description': 'Print the on-board temperature to the Serial Monitor every second.'
         },
         'ru': {
-            'microbitV2.description': 'Обновленный процессор, встроенные динамик и микрофон, сенсорный логотип.'
+            'microbitV2.description': 'Обновленный процессор, встроенные динамик и микрофон, сенсорный логотип.',
+            'microbitV2.examples.blinkIcon.name': 'Мигающий значок',
+            'microbitV2.examples.blinkIcon.description': 'Мигание значка на светодиодной матрице 5×5.',
+            'microbitV2.examples.button.name': 'Кнопка',
+            'microbitV2.examples.button.description': 'Показывать значок на светодиодной матрице, пока нажата кнопка A.',
+            'microbitV2.examples.serialTemperature.name': 'Серийная температура',
+            'microbitV2.examples.serialTemperature.description': 'Печать температуры встроенного датчика в монитор последовательного порта каждую секунду.'
         },
         'zh-cn': {
-            'microbitV2.description': '升级的处理器，板载扬声器与麦克风，触摸感应 logo。'
+            'microbitV2.description': '升级的处理器，板载扬声器与麦克风，触摸感应 logo。',
+            'microbitV2.examples.blinkIcon.name': '闪烁图标',
+            'microbitV2.examples.blinkIcon.description': '在 5x5 LED 矩阵上闪烁显示一个图标。',
+            'microbitV2.examples.button.name': '按键',
+            'microbitV2.examples.button.description': '按住按键 A 时在 LED 矩阵上显示一个图标。',
+            'microbitV2.examples.serialTemperature.name': '串口温度',
+            'microbitV2.examples.serialTemperature.description': '每秒把板载温度打印到串口监视器。'
         },
         'zh-tw': {
-            'microbitV2.description': '升級的處理器，板載喇叭與麥克風，觸摸感應 logo。'
+            'microbitV2.description': '升級的處理器，板載喇叭與麥克風，觸摸感應 logo。',
+            'microbitV2.examples.blinkIcon.name': '閃爍圖示',
+            'microbitV2.examples.blinkIcon.description': '在 5x5 LED 矩陣上閃爍顯示一個圖示。',
+            'microbitV2.examples.button.name': '按鍵',
+            'microbitV2.examples.button.description': '按住按鍵 A 時在 LED 矩陣上顯示一個圖示。',
+            'microbitV2.examples.serialTemperature.name': '序列溫度',
+            'microbitV2.examples.serialTemperature.description': '每秒將板載溫度列印到序列監視器。'
         }
     },
     'extensions': {
