@@ -50,7 +50,7 @@
       "upload"
     ],
     "tags": [
-      "microbit"
+      "microPython"
     ],
     "helpLink": "https://wiki.openblock.cc/general-hardware-guidelines/boards/microbit-v2",
     "libraries": "./libraries",
