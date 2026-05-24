@@ -70,7 +70,7 @@ class OpenBlockMicrobitV2Device {
         return [
             {
                 text: formatMessage({
-                    id: 'microbit.ledState.on',
+                    id: 'microbitV2.ledState.on',
                     default: 'on',
                     description: 'label for led state on'
                 }),
@@ -78,7 +78,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.ledState.off',
+                    id: 'microbitV2.ledState.off',
                     default: 'off',
                     description: 'label for led state off'
                 }),
@@ -149,7 +149,7 @@ class OpenBlockMicrobitV2Device {
         return [
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.shaken',
+                    id: 'microbitV2.gestruesMenu.shaken',
                     default: 'shaken',
                     description: 'label for shaken gestrue'
                 }),
@@ -157,7 +157,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.tiltedUpward',
+                    id: 'microbitV2.gestruesMenu.tiltedUpward',
                     default: 'tilted upward',
                     description: 'label for tilted upward gestrue'
                 }),
@@ -165,7 +165,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.tiltedDownward',
+                    id: 'microbitV2.gestruesMenu.tiltedDownward',
                     default: 'tilted downward',
                     description: 'label for tilted downward gestrue'
                 }),
@@ -173,7 +173,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.tiltedLeftward',
+                    id: 'microbitV2.gestruesMenu.tiltedLeftward',
                     default: 'tilted leftward',
                     description: 'label for tilted leftward gestrue'
                 }),
@@ -181,7 +181,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.tiltedRightward',
+                    id: 'microbitV2.gestruesMenu.tiltedRightward',
                     default: 'tilted rightward',
                     description: 'label for tilted rightward gestrue'
                 }),
@@ -189,7 +189,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.faceUp',
+                    id: 'microbitV2.gestruesMenu.faceUp',
                     default: 'face up',
                     description: 'label for face up gestrue'
                 }),
@@ -197,7 +197,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.faceDown',
+                    id: 'microbitV2.gestruesMenu.faceDown',
                     default: 'face down',
                     description: 'label for face down gestrue'
                 }),
@@ -205,7 +205,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.gestruesMenu.freefall',
+                    id: 'microbitV2.gestruesMenu.freefall',
                     default: 'freefall',
                     description: 'label for freefall gestrue'
                 }),
@@ -230,7 +230,7 @@ class OpenBlockMicrobitV2Device {
         return [
             {
                 text: formatMessage({
-                    id: 'microbit.axisMenu.xAxis',
+                    id: 'microbitV2.axisMenu.xAxis',
                     default: 'x-axis',
                     description: 'label for x axis'
                 }),
@@ -238,7 +238,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.axisMenu.yAxis',
+                    id: 'microbitV2.axisMenu.yAxis',
                     default: 'y-axis',
                     description: 'label for y axis'
                 }),
@@ -246,7 +246,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.axisMenu.zAxis',
+                    id: 'microbitV2.axisMenu.zAxis',
                     default: 'z-axis',
                     description: 'label for z axis'
                 }),
@@ -332,7 +332,7 @@ class OpenBlockMicrobitV2Device {
         return [
             {
                 text: formatMessage({
-                    id: 'microbit.levelMenu.high',
+                    id: 'microbitV2.levelMenu.high',
                     default: 'high',
                     description: 'label for high level'
                 }),
@@ -340,7 +340,7 @@ class OpenBlockMicrobitV2Device {
             },
             {
                 text: formatMessage({
-                    id: 'microbit.levelMenu.low',
+                    id: 'microbitV2.levelMenu.low',
                     default: 'low',
                     description: 'label for low level'
                 }),
@@ -414,7 +414,7 @@ class OpenBlockMicrobitV2Device {
             {
                 id: 'pin',
                 name: formatMessage({
-                    id: 'microbit.category.pins',
+                    id: 'microbitV2.category.pins',
                     default: 'Pins',
                     description: 'The name of the microbit device pin category'
                 }),
@@ -426,7 +426,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'setDigitalOutput',
                         text: formatMessage({
-                            id: 'microbit.pins.setDigitalOutput',
+                            id: 'microbitV2.pins.setDigitalOutput',
                             default: 'set digital pin [PIN] out [LEVEL]',
                             description: 'microbit set digital pin out'
                         }),
@@ -447,7 +447,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'setPwmOutput',
                         text: formatMessage({
-                            id: 'microbit.pins.setPwmOutput',
+                            id: 'microbitV2.pins.setPwmOutput',
                             default: 'set pwm pin [PIN] out [OUT]',
                             description: 'microbit set pwm pin out'
                         }),
@@ -468,7 +468,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'readDigitalPin',
                         text: formatMessage({
-                            id: 'microbit.pins.readDigitalPin',
+                            id: 'microbitV2.pins.readDigitalPin',
                             default: 'read digital pin [PIN]',
                             description: 'microbit read digital pin'
                         }),
@@ -484,7 +484,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'readAnalogPin',
                         text: formatMessage({
-                            id: 'microbit.pins.readAnalogPin',
+                            id: 'microbitV2.pins.readAnalogPin',
                             default: 'read analog pin [PIN]',
                             description: 'microbit read analog pin'
                         }),
@@ -501,7 +501,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'pinTouched',
                         text: formatMessage({
-                            id: 'microbit.pins.pinIsTouched',
+                            id: 'microbitV2.pins.pinIsTouched',
                             default: 'pin [PIN] is touched',
                             description: 'microbit pin is touched'
                         }),
@@ -534,7 +534,7 @@ class OpenBlockMicrobitV2Device {
             {
                 id: 'display',
                 name: formatMessage({
-                    id: 'microbit.category.display',
+                    id: 'microbitV2.category.display',
                     default: 'Display',
                     description: 'The name of the microbit device display category'
                 }),
@@ -545,7 +545,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'showImage',
                         text: formatMessage({
-                            id: 'microbit.display.showImage',
+                            id: 'microbitV2.display.showImage',
                             default: 'show image [VALUE]',
                             description: 'microbit show image'
                         }),
@@ -560,7 +560,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'showImageUntil',
                         text: formatMessage({
-                            id: 'microbit.display.showImageUntil',
+                            id: 'microbitV2.display.showImageUntil',
                             default: 'show image [VALUE] for [TIME] secs',
                             description: 'microbit show image for some times'
                         }),
@@ -579,7 +579,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'show',
                         text: formatMessage({
-                            id: 'microbit.display.show',
+                            id: 'microbitV2.display.show',
                             default: 'show [TEXT]',
                             description: 'microbit show'
                         }),
@@ -594,7 +594,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'showUntilScrollDone',
                         text: formatMessage({
-                            id: 'microbit.display.showUntilScrollDone',
+                            id: 'microbitV2.display.showUntilScrollDone',
                             default: 'show [TEXT] until scroll done',
                             description: 'microbit show until scroll done'
                         }),
@@ -610,7 +610,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'clearDisplay',
                         text: formatMessage({
-                            id: 'microbit.display.clearDisplay',
+                            id: 'microbitV2.display.clearDisplay',
                             default: 'clear screen',
                             description: 'microbit clear display'
                         }),
@@ -620,7 +620,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'lightPixelAt',
                         text: formatMessage({
-                            id: 'microbit.display.lightPixelAt',
+                            id: 'microbitV2.display.lightPixelAt',
                             default: 'light [STATE] at the x: [X] axis, y: [Y] axis',
                             description: 'microbit light pixel at'
                         }),
@@ -644,7 +644,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'showOnPiexlbrightness',
                         text: formatMessage({
-                            id: 'microbit.display.showOnPiexlbrightness',
+                            id: 'microbitV2.display.showOnPiexlbrightness',
                             default: 'show on the x: [X] axis, y: [Y] axis with brightness [BRT]',
                             description: 'microbit show on piexl brightness'
                         }),
@@ -679,7 +679,7 @@ class OpenBlockMicrobitV2Device {
             {
                 id: 'sensor',
                 name: formatMessage({
-                    id: 'microbit.category.sensor',
+                    id: 'microbitV2.category.sensor',
                     default: 'Sensor',
                     description: 'The name of the microbit device sensor category'
                 }),
@@ -691,7 +691,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'buttonIsPressed',
                         text: formatMessage({
-                            id: 'microbit.sensor.buttonIsPressed',
+                            id: 'microbitV2.sensor.buttonIsPressed',
                             default: '[KEY] button is pressed?',
                             description: 'wether microbit button is pressed'
                         }),
@@ -708,7 +708,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'gestureIsX',
                         text: formatMessage({
-                            id: 'microbit.sensor.gestureIsX',
+                            id: 'microbitV2.sensor.gestureIsX',
                             default: 'gestrue is [STA]?',
                             description: 'microbit gestrue is XXX'
                         }),
@@ -724,7 +724,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'axisAcceleration',
                         text: formatMessage({
-                            id: 'microbit.sensor.axisAcceleration',
+                            id: 'microbitV2.sensor.axisAcceleration',
                             default: '[AXIS] axis acceleration',
                             description: 'microbit axis acceleration'
                         }),
@@ -741,7 +741,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'compassAngle',
                         text: formatMessage({
-                            id: 'microbit.sensor.compassAngle',
+                            id: 'microbitV2.sensor.compassAngle',
                             default: 'compass angle',
                             description: 'microbit compass angle'
                         }),
@@ -751,7 +751,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'compassMagneticDensity',
                         text: formatMessage({
-                            id: 'microbit.sensor.compassMagneticDensity',
+                            id: 'microbitV2.sensor.compassMagneticDensity',
                             default: 'compass magnetic density',
                             description: 'microbit compass magnetic density'
                         }),
@@ -761,7 +761,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'calibrateCompass',
                         text: formatMessage({
-                            id: 'microbit.sensor.calibrateCompass',
+                            id: 'microbitV2.sensor.calibrateCompass',
                             default: 'calibrate compass',
                             description: 'microbit calibrate compass'
                         }),
@@ -771,7 +771,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'lightLevel',
                         text: formatMessage({
-                            id: 'microbit.sensor.lightLevel',
+                            id: 'microbitV2.sensor.lightLevel',
                             default: 'light level',
                             description: 'microbit light level'
                         }),
@@ -782,7 +782,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'temperature',
                         text: formatMessage({
-                            id: 'microbit.sensor.temperature',
+                            id: 'microbitV2.sensor.temperature',
                             default: 'temperature',
                             description: 'microbit temperature'
                         }),
@@ -793,7 +793,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'runningTime',
                         text: formatMessage({
-                            id: 'microbit.sensor.runningTime',
+                            id: 'microbitV2.sensor.runningTime',
                             default: 'running time',
                             description: 'microbit running time'
                         }),
@@ -816,7 +816,7 @@ class OpenBlockMicrobitV2Device {
             {
                 id: 'wireless',
                 name: formatMessage({
-                    id: 'microbit.category.wireless',
+                    id: 'microbitV2.category.wireless',
                     default: 'Wireless',
                     description: 'The name of the microbit device wireless category'
                 }),
@@ -828,7 +828,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'openWirelessCommunication',
                         text: formatMessage({
-                            id: 'microbit.wireless.openWirelessCommunication',
+                            id: 'microbitV2.wireless.openWirelessCommunication',
                             default: 'open wireless communication',
                             description: 'microbit open wireless communication'
                         }),
@@ -837,7 +837,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'closeWirelessCommunication',
                         text: formatMessage({
-                            id: 'microbit.wireless.closeWirelessCommunication',
+                            id: 'microbitV2.wireless.closeWirelessCommunication',
                             default: 'close wireless communication',
                             description: 'microbit close wireless communication'
                         }),
@@ -846,7 +846,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'resetWirelessCommunication',
                         text: formatMessage({
-                            id: 'microbit.wireless.resetWirelessCommunication',
+                            id: 'microbitV2.wireless.resetWirelessCommunication',
                             default: 'reset wireless communication',
                             description: 'microbit reset wireless communication'
                         }),
@@ -856,7 +856,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'sendWirelessMessage',
                         text: formatMessage({
-                            id: 'microbit.wireless.sendWirelessMessage',
+                            id: 'microbitV2.wireless.sendWirelessMessage',
                             default: 'send wireless message [TEXT]',
                             description: 'microbit send wireless message'
                         }),
@@ -871,7 +871,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'receiveWirelessMessage',
                         text: formatMessage({
-                            id: 'microbit.wireless.receiveWirelessMessage',
+                            id: 'microbitV2.wireless.receiveWirelessMessage',
                             default: 'receive wireless message',
                             description: 'microbit receive wireless message'
                         }),
@@ -881,7 +881,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'setWirelessCommunicationChannel',
                         text: formatMessage({
-                            id: 'microbit.wireless.setWirelessCommunicationChannel',
+                            id: 'microbitV2.wireless.setWirelessCommunicationChannel',
                             default: 'set wireless communication channel as [CH]',
                             description: 'microbit set wireless communication channel'
                         }),
@@ -904,7 +904,7 @@ class OpenBlockMicrobitV2Device {
             {
                 id: 'console',
                 name: formatMessage({
-                    id: 'microbit.category.console',
+                    id: 'microbitV2.category.console',
                     default: 'Console',
                     description: 'The name of the microbit device console category'
                 }),
@@ -916,7 +916,7 @@ class OpenBlockMicrobitV2Device {
                     {
                         opcode: 'consolePrint',
                         text: formatMessage({
-                            id: 'microbit.console.consolePrint',
+                            id: 'microbitV2.console.consolePrint',
                             default: 'print [TEXT]',
                             description: 'microbit console print'
                         }),
